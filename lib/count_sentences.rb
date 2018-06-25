@@ -18,6 +18,7 @@ self.end_with?("!")
   def count_sentences
 array = self.split(/\?|\.|!/)
 array.delete_if {|x| x == " "}
-array.count
   end
+array.count
+  
 end
