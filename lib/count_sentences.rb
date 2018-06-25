@@ -20,5 +20,4 @@ array = self.split(/\?|\.|!/)
 array.delete_if {|x| x == " "}
   end
 array.count
-  
 end
