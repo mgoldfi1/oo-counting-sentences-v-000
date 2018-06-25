@@ -19,7 +19,7 @@ self.end_with?("!")
 array = self.split(/\?|\.|!/)
 array.delete_if {|x| x == ""}
 array.count
-binding.pry
+
 end
 
 end
